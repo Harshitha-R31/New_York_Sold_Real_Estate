@@ -1,7 +1,7 @@
 import streamlit as st
 from utils.ml_model import train_model
 
-model = train_model()
+model, metrics = train_model()
 
 st.title("🤖 Property Price Predictor")
 
