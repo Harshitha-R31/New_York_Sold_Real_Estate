@@ -86,8 +86,10 @@ def train_model():
 
 def load_model():
 
+    import joblib
+    
     return joblib.load(
-        MODEL_PATH
+        "models/price_predictor.pkl"
     )
 
 
